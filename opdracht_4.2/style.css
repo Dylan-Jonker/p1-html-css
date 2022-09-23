@@ -1,17 +1,20 @@
+html{
+    font-size: 62.5%;
+}
 h1{
    color:blue;
-   size:24px;
+   size:2.4rem;
    font-style:italic;
    font-weight:bold;
 }
 h2{
    color: #000000ff;
-   size: 20px;
+   size: 2rem;
    font-weight: bold;
 }
 h3{
    color:teal;
-   size:16px;
+   size:1.6rem;
    font-weight:bold;
 }
 p{
@@ -19,6 +22,7 @@ p{
 }
 a{
     color:#8a2be2;
+    text-decoration: none;
 }
 
 header{
@@ -35,9 +39,9 @@ header{
     color:cyan;
 }
 article.round{
-   border:2px solid red;
-   border-radius: 12px;
-   padding:5px;
+   border:0.2rem solid red;
+   border-radius: 1.2rem;
+   padding:0.5rem;
    border-left-width:thick;
 }
 img{
