@@ -25,6 +25,7 @@ header{
     width: 100%;
     height: 33%;
     background-image: url(./img/background\ img.jpg);
+    background-image: cover;
 }
 header p{
     color:greenyellow;
