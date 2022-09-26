@@ -61,6 +61,9 @@ footer{
   position: absolute;
   bottom: 0;
   left: 0;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 h1{
 color:white;
@@ -69,7 +72,10 @@ font-style: bold;
 h2{
 color:white;
 font-style: bold;
+text-align: center;
 }
 p{
-  color:white;
+color:white;
+width: 100rem;
+height: 10rem;
 }
