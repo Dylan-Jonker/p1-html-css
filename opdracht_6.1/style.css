@@ -4,17 +4,39 @@
     padding: 0;
 }
 .flex-container{
-    background:#b8b8b8;
+    flex-direction: row;
+    display: flex;
+    background:whitesmoke;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    align-items: center;
-
+    flex-direction: row-reverse;
 }
-.item{
+.itema{
     width: 200px; ;
     height: 200px;;
     background: blue;
-    margin: 15px;
+    margin: 10px;
+    color: #b8b8b8;
+}
+.itemb{
+    width: 200px; ;
+    height: 200px;;
+    background: black;
+    margin: 10px;
+    color: #b8b8b8;
+}
+.itemc{
+    width: 200px; ;
+    height: 200px;;
+    background: red;
+    margin: 10px;
+    color: #b8b8b8;
+}
+.itemd{
+    width: 200px; ;
+    height: 200px;;
+    background: green;
+    margin: 10px;
     color: #b8b8b8;
 }
