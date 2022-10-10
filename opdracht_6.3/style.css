@@ -3,3 +3,14 @@
     margin: 0;
     padding: 0;
 }
+.flex-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.itema{
+    justify-content: center;
+}
+.item{
+    justify-content: space-around;
+}
