@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+nav{
+background-color:#131c27;
+}
+.pattaya{
+font-family: 'Pattaya', sans-serif;
+color: white;
+}
+footer{
+background-color: #131c27;
+color: white;
+}
+nav li{
+justify-content: flex-end;
+padding: 0 1rem 0 2rem;
+}
+nav ul{
+display: flex;
+justify-content: flex-end;
+}
+nav a{
+color: white;
+text-decoration: none;
+}
