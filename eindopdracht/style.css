@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 nav{
+display: flex;
 background-color:#131c27;
 }
 .pattaya{
@@ -25,4 +26,48 @@ justify-content: flex-end;
 nav a{
 color: white;
 text-decoration: none;
+}
+button{
+background-color:#4c6e97 ;
+}
+.block1{
+background-image: url("./img/landing-page.jpg");
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+.block2{
+background-image: url("./img/new-york-page.png");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+}
+.block3{
+background-color: #131c27;
+}
+.block4{
+background-color: #ffffff;
+}
+.block5{
+background-image: url("./img/contact-mountain.png");
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+} 
+.block4 p{
+color: black;
+}
+p{
+color: #ffffff;
+}
+h1{
+color: #ffffff;
+}
+h2{
+color: #ffffff;
 }
