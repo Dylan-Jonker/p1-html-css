@@ -6,14 +6,19 @@
 nav{
 display: flex;
 background-color:#131c27;
+justify-content: space-between;
 }
 .pattaya{
 font-family: 'Pattaya', sans-serif;
 color: white;
 }
 footer{
+display: flex;
 background-color: #131c27;
 color: white;
+justify-content: space-between;
+align-items: flex-end;
+padding: 1.5rem 7rem 1.5rem 2rem;
 }
 nav li{
 justify-content: flex-end;
@@ -31,36 +36,106 @@ button{
 background-color:#4c6e97 ;
 }
 .block1{
+display: flex;
 background-image: url("./img/landing-page.jpg");
 width: 100vw;
 height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
+.block1 p{
+justify-content: center;
+margin-bottom: 0.5rem;
+font-size: 1.5rem;
+}
+.block1 h1{
+text-align: center;
+font-size: 3rem;
+margin-bottom: 2rem;
+justify-content: center;
+}
+.block1 a{
+  background-color: #5d88bd;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 15rem;
+  text-decoration: none;
+}
+.block1 a:hover {
+  background-color: #4c6e97;
+}
+
 .block2{
-background-image: url("./img/new-york-page.png");
+display: flex;
+background-image: url("./img/new-york-page.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(144,144,144) 100%);
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100vw;
 height: 100vh;
+text-align: left;
+flex-direction: column;
+color: white;
+justify-content: center;
+padding-left: 5rem;
+}
+.block2 p{
+margin-bottom: 0.5rem;
+font-size: 1.5rem;
+text-align: left;
+justify-content: center;
+}
+.block2 h2{
+font-size: 3rem;
+margin-bottom: 2rem;
+border-style: none;   
+border-bottom-style: solid;
+width: fit-content;
+}
+.block a{
+background-color: #4c6e97;
+padding-top: 2rem;
+padding-bottom: 2rem;
+width: 1.5rem;
+border: none;
+color: white;
+text-decoration: none; 
 }
 .block3{
 background-color: #131c27;
+width: 100vw;
+padding: 2rem 0;
+text-align: center;
 }
 .block4{
+display: flex;
+background-color: #ffffff;
+text-align: center;
+padding: 2rem 0;
+}
+.block4 p{
+padding: 2rem 0;
+color: black;
+background-color: white;
+}
+.block4 h3{
 background-color: #ffffff;
 }
 .block5{
-background-image: url("./img/contact-mountain.png");
+background-image: url("./img/contact-mountain.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(144,144,144) 100%);
 width: 100vw;
 height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
 } 
-.block4 p{
-color: black;
+h1,h2,h3,h4,h5,h6,p,a,label {
+  font-family: 'Poppins', sans-serif;
 }
 p{
 color: #ffffff;
@@ -70,4 +145,13 @@ color: #ffffff;
 }
 h2{
 color: #ffffff;
+}
+html{
+overflow-x: hidden;
+}
+.container{
+width: 2rem;
+}
+.Travel .Hotel .Fly{
+background-color: black;
 }
