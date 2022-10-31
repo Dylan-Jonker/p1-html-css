@@ -206,3 +206,35 @@ footer{
   padding: 1.5rem 7rem 1.5rem 2rem;
   font-size: 1.5rem;
   }
+@media only screen and (max-width: 920px) {
+nav{
+flex-direction: column;
+}
+nav p{
+padding-left: 0 !important;
+text-align: center !important;
+}
+ul {
+padding-right: 0 !important;
+justify-content: center !important;
+}
+.block4 {
+flex-direction: column !important;
+align-items: center;
+}
+.block5 form {
+width: 95vw !important;
+}
+.block5 input {
+padding: 1rem 10rem !important;
+}
+footer {
+display: flex !important;
+flex-direction: column !important;
+}
+}
+.footericon{
+display: flex;
+justify-content: space-between;
+width: 60vw;
+}
