@@ -7,22 +7,19 @@ nav{
 display: flex;
 background-color:#131c27;
 justify-content: space-between;
+height: 10vh;
+text-decoration: none;
 }
 .pattaya{
 font-family: 'Pattaya', sans-serif;
 color: white;
-}
-footer{
-display: flex;
-background-color: #131c27;
-color: white;
-justify-content: space-between;
-align-items: flex-end;
-padding: 1.5rem 7rem 1.5rem 2rem;
+font-size: 1.5rem;
 }
 nav li{
 justify-content: flex-end;
 padding: 0 1rem 0 2rem;
+font-size: 1.5rem;
+text-decoration: none;
 }
 nav ul{
 display: flex;
@@ -31,6 +28,7 @@ justify-content: flex-end;
 nav a{
 color: white;
 text-decoration: none;
+font-size: 1.5rem;
 }
 button{
 background-color:#4c6e97 ;
@@ -130,10 +128,42 @@ background-color: #ffffff;
 background-image: url("./img/contact-mountain.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(144,144,144) 100%);
 width: 100vw;
 height: 100vh;
+
 background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
 } 
+.block5 form{
+display: flex;
+background-color: #131c2783;
+flex-direction: column;
+width: 65vw;
+margin: auto;
+justify-content: center;
+text-align: center;
+padding: 0;
+padding-top: 3rem;
+font-size: 1.8rem;
+border-radius: 2.5rem;
+}
+.block5 input{
+width: 20vw;
+margin-left: 2rem;
+margin-top: 3rem;
+padding: 1rem 2rem;
+}
+.block5 button{
+border: none;
+background-color: #5d88bd;
+color: white;
+margin-top: 5rem;
+padding: 1rem 0;
+border-radius: 0 0 2.5rem 2.5rem;
+
+}
+.block5 button:hover{
+background-color: #4c6e97;
+}
 h1,h2,h3,h4,h5,h6,p,a,label {
   font-family: 'Poppins', sans-serif;
 }
@@ -165,3 +195,14 @@ background-color: #131c27;
 object-fit: contain;
 height: 4rem;
 }
+
+footer{
+  display: flex;
+  background-color: #131c27;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15rem;
+  padding: 1.5rem 7rem 1.5rem 2rem;
+  font-size: 1.5rem;
+  }
